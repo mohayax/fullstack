@@ -5,11 +5,11 @@ import Navbar from './Navbar'
 
 
 
-const Layout = (props) => {
+const Layout = ({children}) => {
   return (
     <div>
         <Navbar/>
-        {props.children}
+        {children}
     </div>
   )
 }
